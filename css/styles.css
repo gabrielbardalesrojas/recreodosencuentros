@@ -1,0 +1,110 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #5bd0e8;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333; /* Color de texto predeterminado */
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #f0f0f0; /* Color de fondo */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transición suave */
+    font-weight: bold; /* Letras más gruesas */
+}
+
+nav ul li a:hover {
+    background-color: #007bff; /* Cambio de color de fondo en el hover */
+    color: #fff; /* Cambio de color de texto en el hover */
+}
+
+
+#main-content {
+    text-align: center;
+    padding: 30px 40px 20px 180px;
+}
+
+footer {
+    background-color: #4fafdc;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+ /* Estilo para las imágenes */
+
+.product-container {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 50px auto;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.product-image {
+    flex: 1;
+    max-width: 40%; /* Establece el ancho máximo para la imagen */
+    padding: 20px; /* Agrega un poco de espacio alrededor de la imagen */
+}
+
+.product-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-right: 1px solid #dddddd;
+    border-radius: 8px; /* Agrega bordes redondeados */
+}
+
+.product-details {
+    flex: 1;
+    padding: 20px;
+}
+
+.product-details h2 {
+    color: #333333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-details p {
+    color: #666666;
+    margin: 0 0 10px;
+}
+
+.product-details button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.product-details button:hover {
+    background-color: #0056b3;
+}
